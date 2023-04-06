@@ -7,6 +7,13 @@
 ░    gitleaks plus
 ```
 
+Gitleaks plus was created to bring back funcionalitiy from version gitleaks v**7.6.1** that allow scan github repos on the fly.
+
+Thanks to the original creator <a href="https://twitter.com/intent/follow?screen_name=zricethezav">@zricethezav</a> thas created this awesome tool! To find the original project just click <a href="https://github.com/gitleaks/gitleaks"> here</a>.
+
+<br />
+
+# Original documentation
 
 <p align="left">
   <p align="left">
@@ -21,14 +28,6 @@
 	  </a>
   </p>
 </p>
-
-Gitleaks plus was created to bring back funcionalitiy to scan github repos on the fly.
-
-I want to thanks the original creator <a href="https://twitter.com/intent/follow?screen_name=zricethezav">@zricethezav</a> thas created this awesome tool! To find the original project just click <a href="https://github.com/gitleaks/gitleaks"> here</a>
-
-<br />
-
-# Original documentation
 
 ### Installation
 Gitleaks can be installed using Homebrew, Docker, or Go. Gitleaks is also available in binary form for many popular platforms and OS types on the [releases page](https://github.com/zricethezav/gitleaks/releases). In addition, Gitleaks can be implemented as a pre-commit hook directly in your repo.
