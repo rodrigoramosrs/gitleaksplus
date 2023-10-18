@@ -12,3 +12,4 @@ build
 
 # Test binary
 *.out
+.vscode/launch.json

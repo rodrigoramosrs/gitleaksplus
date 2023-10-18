@@ -35,12 +35,12 @@ func NewCommitScanner(opts options.Options, cfg config.Config, repo *git.Reposit
 }
 
 // SetRepoName sets the repo name of the scanner.
-func (cs *CommitScanner) SetRepoName(repoName string) {
+func (cs CommitScanner) SetRepoName(repoName string) {
 	cs.repoName = repoName
 }
 
 // Scan kicks off a CommitScanner Scan
-func (cs *CommitScanner) Scan() (Report, error) {
+func (cs CommitScanner) Scan() (Report, error) {
 	var scannerReport Report
 
 	defer func() {
